@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bannar {
+
+
+
+  max-width: 1130px;
+  height: 600px;
+  border-radius: 16px;
+  background-image: url(../images/Banner\ Image.png);
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 50px auto;
+  padding: 160px 230px;
+
+}
+
+.bannar-text-container {}
+
+.bannar-text {
+  text-align: center;
+  color: white;
+}
+
+.small {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.big {
+  font-size: 72px;
+  font-weight: 900;
+}
