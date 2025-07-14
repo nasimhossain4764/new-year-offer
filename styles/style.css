@@ -11,8 +11,7 @@
   max-width: 1130px;
   height: 600px;
   border-radius: 16px;
-  background-image: url(../images/Banner\ Image.png);
-
+  background-image: linear-gradient(to bottom, rgba(20, 20, 20, 0.892), transparent), url(../images/Banner\ Image.png);
   background-size: contain;
   background-repeat: no-repeat;
   margin: 50px auto;
@@ -35,4 +34,206 @@
 .big {
   font-size: 72px;
   font-weight: 900;
+}
+
+/* 65% OFF Section Style */
+.container {
+  text-align: center;
+  margin-bottom: 120px;
+}
+
+.text {
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  width: 410px;
+  margin-bottom: 47px;
+}
+
+.discount-heading {
+  font-size: 88px;
+  color: #FF0000;
+  font-weight: 700;
+  row-gap: 107px;
+  width: 383px;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 49px;
+}
+
+.discount-para {
+  font-size: 24px;
+  font-weight: 500;
+  row-gap: 29px;
+  margin-bottom: 16px;
+}
+
+.discount-catagories {
+  font-size: 48px;
+  font-weight: 700;
+  row-gap: 58px;
+}
+
+.discount-image {
+  width: 802px;
+  height: 500px;
+}
+
+
+/* Midnight Party Section Style */
+.midnight-party {
+  background-image: linear-gradient(to right, rgba(37, 34, 34, 0.942) 43%, transparent 58%), url(../images/Vectorrr.png);
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 126px;
+  padding-right: 138px;
+  height: 600px;
+  width: 1320px;
+  margin: auto;
+  border-radius: 16px;
+}
+
+.welcome-title {
+  font-size: 64px;
+  font-weight: 900;
+  row-gap: 88px;
+  color: #FFFFFF;
+  margin-top: 126px;
+  margin-bottom: 24px;
+}
+
+.welcome-para {
+  font-size: 18px;
+  font-weight: 400;
+  row-gap: 30px;
+  color: #FFFFFFCC;
+  width: 697px;
+  margin-bottom: 48px;
+}
+
+.join-now {
+  font-size: 20px;
+  font-weight: 700;
+  row-gap: 24px;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-bottom: 142px;
+  margin-left: 32px;
+}
+
+.image-section img {
+  text-align: center;
+  margin: 68px 0px;
+}
+
+
+/* Venue Section Style */
+.venue {
+  width: 1320px;
+  height: 482px;
+  background-image: linear-gradient(to bottom, #f6e4e4fb, #f7f5f5);
+  border-radius: 16px;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+
+.venue-container {
+  text-align: center;
+  align-items: center;
+  padding: 110px 0px;
+}
+
+.venue-container h2 {
+  margin-bottom: 20px;
+}
+
+.common-style {
+  color: #FF0000;
+}
+
+.primary-btn {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 16px 32px;
+  background-color: #FF0000;
+  color: #FFFFFF;
+  border-radius: 8px;
+  border: none;
+  margin-top: 48px;
+}
+
+
+
+/* Best New Offer Section Style */
+.best-offer {
+  display: flex;
+  width: 1320px;
+  height: 463px;
+  margin: auto;
+  margin-top: 120px;
+  text-align: center;
+  gap: 70px;
+}
+
+.first {
+  width: 393px;
+  text-align: left;
+  margin: auto 0;
+  width: 393px;
+  /* margin: 224px 70px 224px 0px; */
+}
+
+.small-title {
+  font-size: 24px;
+  font-weight: 500;
+  color: #FF0000;
+  margin-bottom: 16px;
+}
+
+.big-title {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 22px;
+}
+
+.offer-para {
+  font-size: 20px;
+  font-weight: 400;
+  color: #07021199;
+}
+
+.circle {
+  width: 463px;
+  height: 463px;
+  border: 15px solid #FF0000;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  padding: 36px;
+}
+
+.circle-image {
+  width: 364.84px;
+  height: 364.84px;
+  border-radius: 50%;
+}
+
+.third {
+  text-align: left;
+  margin: auto 0;
+  width: 276px;
+}
+
+.third h1 {
+  margin-bottom: 15px;
+  font-size: 48px;
+  font-weight: 700;
+  color: #FF0000;
+}
+
+.third p {
+  margin-bottom: 45px;
+  color: #07021199;
 }
